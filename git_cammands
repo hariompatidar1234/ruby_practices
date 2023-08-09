@@ -1,0 +1,28 @@
+*********git commmand *********
+
+
+ check version 
+git --version 
+
+## for create reposetry
+git init 
+
+#status check krne  liye kuch chnage kiya ho to 
+git status 
+
+#All file fill in the stagin area 
+git add --a 
+
+
+## for commit(snapshot)(chnage) ("" in duble qoutes massge with commit)
+git commit -m "massaage " 
+git commit -a --allow-empty-message -m ''(without massage)
+
+
+#check for the all massage with the commit
+git log 
+
+#delete the git repository contain
+rm -rf .git
+
+
